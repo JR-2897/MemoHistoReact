@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg id="svggen" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" height='250' width='921' ><title>Les grandes périodes historiques</title><desc>Frise chronologique - Description de ma frise</desc>      <style type='text/css'>      rect:hover {fill-opacity:0.5;}      .txtper:hover {fill-opacity:0.7;}      .txtevt:hover {fill-opacity:0.7;}    </style>  <defs>       <g id='star'><polygon id='etoile' fill='red' stroke='white' stroke-width='1' points='0,7 2,16 11,16 4,21 7,30 0,25 -8,30 -5,21 -12,16 -3,16' /></g>
+    </defs>
+    <g transform='translate(20,10) scale(1)' id='svggener_frise34194Les-grandes-periodes-historiques'>
+      <rect fill='none' stroke='#000000' stroke-width='2'  width='701' height='113' /><g stroke-width='2' stroke='black'>        <path transform='translate(0, 0)' d='m 0,113 0,3' />
+        <path transform='translate(98.8, 0)' d='m 0,113 0,3' />
+        <path transform='translate(197.6, 0)' d='m 0,113 0,3' />
+        <path transform='translate(296.4, 0)' d='m 0,113 0,3' />
+        <path transform='translate(395.2, 0)' d='m 0,113 0,3' />
+        <path transform='translate(494, 0)' d='m 0,113 0,3' />
+        <path transform='translate(592.8, 0)' d='m 0,113 0,3' />
+        <path transform='translate(691.6, 0)' d='m 0,113 0,3' />
+</g>        <path stroke-width='2' transform='translate(731,0)' stroke='black' d='m 0,0 37.666666666667,56.5' />        <path stroke-width='2' transform='translate(731,0)' stroke='black' d='m 37.666666666667,56.5 -37.666666666667,56.5' />        <path stroke-width='2' transform='translate(731,0)' stroke='black' d='m 0,0 0,113' />        <rect stroke-width='2' transform='translate(711,0)' fill='none' stroke='black' width='10' height='113' />      <rect fill='#88AACC' stroke='black' fill-opacity='1' width='197' height='113' x='0' />
+      <rect fill='#AAFF77' stroke='black' fill-opacity='1' width='343' height='113' x='197' />
+      <rect fill='#AA3388' stroke='black' fill-opacity='1' width='100' height='113' x='541' />
+      <rect fill='#DDEE55' stroke='black' fill-opacity='1' width='29' height='113' x='641' />
+      <rect fill='#88AACC' stroke='black' fill-opacity='1' width='30' height='113' x='670' />
+      <use transform='translate(197, 56.5)' xlink:href='#star' />
+      <path transform='translate(197,81.5)' d='M 0,0 0,46.5' stroke='#888888' />
+      <use transform='translate(494, 56.5)' xlink:href='#star' />
+      <path transform='translate(494,81.5)' d='M 0,0 0,46.5' stroke='#888888' />
+      <use transform='translate(670, 56.5)' xlink:href='#star' />
+      <path transform='translate(670,81.5)' d='M 0,0 0,46.5' stroke='#888888' />
+      <use transform='translate(641, 56.5)' xlink:href='#star' />
+      <path transform='translate(641,81.5)' d='M 0,0 0,86.5' stroke='#888888' />
+      <use transform='translate(541, 56.5)' xlink:href='#star' />
+      <path transform='translate(541,81.5)' d='M 0,0 0,126.5' stroke='#888888' />
+
+<g  text-anchor='middle' fill='#444444' font-style='italic' font-family='Arial' font-size='12'>
+<text x='0' y='133'>-5000</text>
+<text x='99' y='133'>-4000</text>
+<text x='198' y='133'>-3000</text>
+<text x='296' y='133'>-2000</text>
+<text x='395' y='133'>-1000</text>
+<text x='494' y='133'>0</text>
+<text x='593' y='133'>1000</text>
+<text x='692' y='133'>2000</text></g>
+<g text-anchor='middle'>
+<text font-family='Arial' font-size='12' x='197' y='150' fill=''>Apparition de l'écriture</text>
+<text font-family='Arial' font-size='12' x='494' y='150' fill=''>Naissance de Jésus-Christ</text>
+<text font-family='Arial' font-size='12' x='670' y='150' fill=''>Révolution française</text>
+<text font-family='Arial' font-size='12' x='641' y='190' fill=''>Découverte de l'Amérique</text>
+<text font-family='Arial' font-size='12' x='541' y='230' fill=''>Chute de l'empire romain</text>
+</g>
+<g text-anchor='middle'>
+<text   font-family='Arial' font-size='12' x='98' y='76.5' fill='#000000'>Préhistoire
+</text>
+<text   font-family='Arial' font-size='12' x='369' y='56.5' fill='#000000'>Antiquité</text>
+<text   font-family='Arial' font-size='12' x='591' y='56.5' fill='#000000'>Moyen-Age</text>
+<text   font-family='Arial' font-size='12' x='656' y='56.5' fill='#000000'>Temps modernes</text>
+<text   font-family='Arial' font-size='12' x='686' y='56.5' fill='#000000'>Epoque contemporaine</text></g></g></svg>
