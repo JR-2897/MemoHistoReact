@@ -2,10 +2,10 @@ import React from 'react'
 
 import HomePage from '../components/homePage'
 
-const Home = () => {
+const Home = props => {
   return (
     <div>
-      <HomePage></HomePage>
+      <HomePage props={props}></HomePage>
     </div>
   )
 }

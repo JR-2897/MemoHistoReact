@@ -1,14 +1,10 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { useHistory } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
 const Header = ({ haveToken, setHaveToken }) => {
   const history = useHistory()
-
-  useEffect(() => {
-    console.log(haveToken)
-  }, [haveToken])
 
   const Logout = () => {
     localStorage.removeItem('token')

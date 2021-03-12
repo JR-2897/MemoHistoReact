@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
 
 import historyManual from '../../assets/history-manual.png'
 
-const HomePage = () => {
+const HomePage = props => {
   return (
     <DivHome>
       <DivImage>
@@ -18,8 +18,8 @@ const HomePage = () => {
       </DivDescriptionApp>
       <TitleLoginBox>Lien pour vous connecter :</TitleLoginBox>
       <DivLinkLogin>
-        <ButtonLinkLogin>
-          <Link to='/login'>Login</Link>
+        <ButtonLinkLogin onClick={() => props.props.history.push('login')}>
+          Login
         </ButtonLinkLogin>
       </DivLinkLogin>
     </DivHome>
@@ -58,5 +58,9 @@ const DivLinkLogin = styled.div`
   padding: 5% 0;
 `
 const ButtonLinkLogin = styled.button``
+
+HomePage.propTypes = {
+  props: PropTypes.element
+}
 
 export default HomePage

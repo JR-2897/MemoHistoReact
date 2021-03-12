@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import { useHistory } from 'react-router'
@@ -6,7 +6,6 @@ import { useHistory } from 'react-router'
 const Signin = ({ submit, setHaveToken }) => {
   const [formState, setFormState] = useState({ username: '', password: '' })
   const [errorMessage, setErrorMessage] = useState('')
-  useEffect(() => {})
   const history = useHistory()
   return (
     <DivSignin>
