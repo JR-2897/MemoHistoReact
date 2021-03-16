@@ -11,6 +11,7 @@ import Home from '../screens/home'
 import Memos from '../screens/memos'
 import NewMemo from '../screens/newMemo'
 import Memo from '../screens/memo'
+import Favoris from '../screens/favoris'
 
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -35,6 +36,7 @@ const Routes = () => {
         <PrivateRoute exact path='/memos' component={Memos}></PrivateRoute>
         <PrivateRoute exact path='/new/memo' component={NewMemo}></PrivateRoute>
         <PrivateRoute exact path='/memo/:id' component={Memo}></PrivateRoute>
+        <PrivateRoute exact path='/favoris' component={Favoris}></PrivateRoute>
         <Redirect to='/'></Redirect>
       </Switch>
       <Footer></Footer>

@@ -41,8 +41,8 @@ const DivLogOutButton = styled.div`
 const LogOutButton = styled.button``
 
 Header.propTypes = {
-  haveToken: PropTypes.element,
-  setHaveToken: PropTypes.element
+  haveToken: PropTypes.string,
+  setHaveToken: PropTypes.func
 }
 
 export default Header

@@ -72,7 +72,7 @@ const AlertMessage = styled.span`
 
 Signin.propTypes = {
   submit: PropTypes.func,
-  setHaveToken: PropTypes.element
+  setHaveToken: PropTypes.func
 }
 
 export default Signin

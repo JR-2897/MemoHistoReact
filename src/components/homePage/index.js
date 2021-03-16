@@ -60,7 +60,7 @@ const DivLinkLogin = styled.div`
 const ButtonLinkLogin = styled.button``
 
 HomePage.propTypes = {
-  props: PropTypes.element
+  props: PropTypes.object
 }
 
 export default HomePage

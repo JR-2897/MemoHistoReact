@@ -13,6 +13,23 @@ const Memos = props => {
       setListMemos([])
     }
   }, [])
+
+  const handleFavoris = memo => {
+    const currentFavoris = localStorage.getItem('favoris')
+      ? JSON.parse(localStorage.getItem('favoris'))
+      : []
+    const isFavoris = currentFavoris.map(e => e.id).indexOf(memo.id)
+    if (isFavoris === -1) {
+      currentFavoris.push(memo)
+      localStorage.setItem('favoris', JSON.stringify(currentFavoris))
+    } else {
+      const filteredMemosFavoris = currentFavoris.filter(
+        memos => memos.id !== memo.id
+      )
+      localStorage.setItem('favoris', JSON.stringify(filteredMemosFavoris))
+    }
+  }
+
   return (
     <DivListMemos>
       <UlListMemos>
@@ -29,6 +46,9 @@ const Memos = props => {
             >
               Lien vers la fiche
             </ButtonToMemo>
+            <ButtonAddFavoris onClick={() => handleFavoris(memo)}>
+              Ajouter au favoris
+            </ButtonAddFavoris>
           </LiMemos>
         ))}
       </UlListMemos>
@@ -37,6 +57,11 @@ const Memos = props => {
           Ajouter un memo
         </ButtonAddMemo>
       </DivLinkNewMemo>
+      <DivLinkFavoris>
+        <ButtonLinkFavoris onClick={() => props.history.push('/favoris')}>
+          Vers vos favoris
+        </ButtonLinkFavoris>
+      </DivLinkFavoris>
     </DivListMemos>
   )
 }
@@ -54,10 +79,21 @@ const ButtonToMemo = styled.button`
   display: flex;
   justify-content: flex-end;
 `
+const ButtonAddFavoris = styled.button`
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2%;
+`
 const ButtonAddMemo = styled.button``
+const DivLinkFavoris = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+`
+const ButtonLinkFavoris = styled.button``
 
 Memos.propTypes = {
-  history: PropTypes.func
+  history: PropTypes.object
 }
 
 export default Memos

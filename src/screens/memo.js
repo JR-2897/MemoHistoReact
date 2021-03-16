@@ -47,7 +47,7 @@ const DivButtonRetourListMemos = styled.div`
 const ButtonRetourListMemos = styled.button``
 
 Memo.propTypes = {
-  location: PropTypes.element
+  location: PropTypes.object
 }
 
 export default Memo

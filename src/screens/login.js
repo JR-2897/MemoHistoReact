@@ -52,7 +52,7 @@ const Login = ({ history, setHaveToken }) => {
 
 Login.propTypes = {
   history: PropTypes.object,
-  setHaveToken: PropTypes.element
+  setHaveToken: PropTypes.func
 }
 
 export default Login
